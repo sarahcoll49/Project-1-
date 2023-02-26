@@ -1,0 +1,229 @@
+/* Place CSS styles here */ 
+ *{
+  margin: 0px;
+  padding: 0px;   
+  font-family:century;
+ }
+
+ header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/pim-myten-HXScJqhiSJY-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+ }
+ ul{
+  float: right;
+  list-style-type: none;
+  min-height: 400px;
+  margin-right: 60px;
+  font-size: 17px;
+ }
+
+ ul li{
+  display: inline-block;
+ }
+
+ ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding:5px 20px ;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+ }
+
+ ul li a:hover{
+  background-color: #fff;
+  color: #000;
+ }
+
+ul li.active a{
+  background-color: #fff;
+  color: #000; 
+}
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform:translate(-50%,-50%) ;
+}
+
+.title h1{
+  color: #fff;
+  font-size: 70px;
+}
+
+.title p{
+  color: #fff;
+  font-size: 30px;
+}
+
+.button{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform:translate(-50%,-50%) ;
+}
+
+.btn{
+  border: 1px solid #fff;
+  padding: 5px 20px;
+  color: #fff;
+  transition: 0.5 ease;
+font-size: 18px;
+text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.sub-menu{
+display: none;
+top: 3%;
+position: relative;
+}
+
+.sub-menu ul{
+  position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.main ul li:hover .sub-menu ul{
+  display: block;
+  margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+  width: 75px;
+  padding: 5px;
+  border-bottom: 1px #fff;
+  background: transparent;
+  transition: 0.6 ease;
+  text-align: left;
+  border-radius: 0px;
+}
+
+.About.html{
+  
+  
+    margin: 0px;
+    padding: 0px;   
+    font-family:century;
+   }
+
+   .About{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+  }
+
+   .About h3{
+    color: #fff;
+  font-size: 70px;
+  top: 100%;
+   }
+
+.About {
+  color: #fff;
+  font-size: 30px;
+  text-align: left;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/pim-myten-HXScJqhiSJY-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;}
+
+#menu{
+  padding: 25px 0 25px 0;
+}
+
+#section{
+  padding: 25px 0 25px 0;
+  text-align: center;
+  font-size: 2rem;;
+  font-family: verdana;
+  color:#fff;
+}
+
+#menu_row{
+  display: flex;
+  padding: 0 100px 0 100px;
+}
+
+#menu_col{
+  box-shadow: 2px 2px 2px #bbb;
+  border: 1px solid #bbb;
+  background-color: #fff;
+  margin: 5px;
+}
+#menu_col h2{
+  background-color: #fff; 
+  text-align: center;
+  padding: 5px;
+  font-family: cursive;
+}
+
+#image{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+#image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+object-fit: cover;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+}
+#image img:hover{
+  transform: scale(1.04);
+}
+
+
+#section{
+  padding: 25px 0 25px 0;
+  text-align: center;
+  font-size: 2rem;;
+  font-family: verdana;
+  color:#fff;
+}
+h3{color:#fff;}
+
+p{color:#fff;}
